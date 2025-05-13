@@ -155,7 +155,7 @@ global.eror = '```404 error```'
 dotenv.config()
 
 
-const ownervb = process.env.OWNER_NUMBER || "IK~lediRDqD#pCYgqI5POb9W5udnC1tSPlVgczsc18QW_1G4gsgceXc";
+const ownervb = process.env.OWNER_NUMBER || "IK~QGkjjJJJ#oRSxQYg4CvLHoYP_NjHWt8auoxoZuFFzioiixUrRaOo";
 const ownerlist = ownervb.split(',');
 global.owner = [];
 for (let i = 0; i < ownerlist.length; i += 2) {
